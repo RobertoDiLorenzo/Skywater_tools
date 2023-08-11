@@ -13,7 +13,7 @@ From terminal execute this command.
 
 sudo ./install_packages
 
-Now, to install the tools make sure that you have 100GB of free space avalaible on your disk. 
+Now, to install the tools make sure that you have 100GB of free space avalaible on your disk. All the tools will be installed in the default path: "/usr/local/share/".
 Open Terminal into "Download" folder. Make sure to have the permission of the administrator and run the command:
 
 sudo ./tools_install.sh
