@@ -9,7 +9,7 @@ the main tool listed in the script are:
 
 ## Installation
 The process installation is divided in two steps.
-First step is abot the packages and all dependencies.
+First step is about the packages and all dependencies.
 From terminal execute this command.
 
 ```sh
