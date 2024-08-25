@@ -25,6 +25,17 @@ sudo ./tools_install.sh
 The process will start downloading the latest version of each tool from the official repository of each software.
 The compilation of each tool depends on the configuration of your system.
 
+## Run tools
+To run Xschem is necessry tipy in a shell the command:
+
+```
+xschem
+```
+the same process for magic layout tool.
+```
+magic
+```
+
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
