@@ -26,7 +26,7 @@ The process will start downloading the latest version of each tool from the offi
 The compilation of each tool depends on the configuration of your system.
 
 ## Run tools
-To run Xschem is necessry tipy in a shell the command:
+To run Xschem is necessary write in a shell the command:
 
 ```
 xschem
