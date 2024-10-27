@@ -39,7 +39,7 @@ magic
 # Skywater tools for layout
 1) Netgen necessary to do LVS. https://opencircuitdesign.com/netgen
 2) klayout https://github.com/KLayout/klayout
-3) GTKWave https://github.com/gtkwave/gtkwave.git not necessary for layout, is a another wiever
+3) GTKWave https://github.com/gtkwave/gtkwave.git not necessary for layout, it is a another wiever
 
    
 ## Installation
