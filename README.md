@@ -36,6 +36,19 @@ the same process for magic layout tool.
 magic
 ```
 
+# Skywater tools for layout
+1) Netgen necessary to do LVS. https://opencircuitdesign.com/netgen
+2) klayout https://github.com/KLayout/klayout
+3) GTKWave https://github.com/gtkwave/gtkwave.git not necessary for layout, is a another wiever
+
+   
+## Installation
+Run this command to install the set of tools for making layout and doing LVS.
+
+```sh
+sudo ./layout_tools_install.sh
+```
+
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
