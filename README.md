@@ -48,6 +48,11 @@ Run this command to install the set of tools for making layout and doing LVS.
 ```sh
 sudo ./layout_tools_install.sh
 ```
+## Run tools
+tipe in a terminal 
+```sh
+klayout
+```
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
