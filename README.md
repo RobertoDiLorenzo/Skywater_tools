@@ -1,4 +1,4 @@
-# Skywater tools
+# Part :one: - Skywater tools
 To make the IC simulation with Skywater 130 PDK, i created a script that install the tools to run the first simulation. 
 the main tool listed in the script are:
 
@@ -36,7 +36,7 @@ the same process for magic layout tool.
 magic
 ```
 
-# Skywater tools for layout
+# Part :two: - Skywater tools for layout
 1) Netgen necessary to do LVS. https://opencircuitdesign.com/netgen
 2) klayout https://github.com/KLayout/klayout
 3) GTKWave https://github.com/gtkwave/gtkwave.git not necessary for layout, it is a another wiever
@@ -53,6 +53,12 @@ tipe in a terminal
 ```sh
 klayout
 ```
+# Part :three: - Xyce
+The official documentation can be found here: https://xyce.sandia.gov/
+This is for expert user, this is a parallel electronic simulator.
+## Installation 
+:warning:
+:construction:
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
