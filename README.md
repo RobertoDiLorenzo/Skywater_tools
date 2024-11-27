@@ -56,11 +56,73 @@ klayout
 # Part :three: - Xyce
 The official documentation can be found here: https://xyce.sandia.gov/
 This is for expert user, this is a parallel electronic simulator.
-## Installation 
+
+# Xyce Installation Guide
+
+This guide explains how to install Xyce step-by-step. Follow the instructions below to set up all dependencies, install Trilinos, and finally, install Xyce.
+
+---
+
+## Prerequisites
+
+Before you begin, ensure you have the necessary tools installed on your system. These include:
+- GCC/G++ compilers
+- CMake
+- Fortran Compiler
+- LAPACK and BLAS libraries
+- NetCDF (optional, depending on your requirements)
+
+
+
+### 1. Installation steps
+1. Install Dependencies
+Run the following script to install all the required packages for Xyce and Trilinos:
+
+```sh
+./1_trilionos_xyce_packages_conf.sh
+```
+### 2. Install Trilinos
+To install Trilinos, execute in a terminal:
+```sh
+./2_trilinos_installation_github.sh
+```
+This script will:
+
+1) Clone the Trilinos repository from GitHub.
+2) Configure and compile Trilinos with the required options.
+3) Install Trilinos in the specified directory.
+### 3. Install Xyce
+Finally, install Xyce (version 7.8), the latest available release, by running:
+```sh
+./3_xyce_install.sh
+```
+This script will:
+1) Download the Xyce source code.
+2) Configure, compile, and install Xyce.
+
+##
+Troubleshooting
+Common Issues
+Missing Trilinos Configuration
+If the script fails to find Trilinos, ensure that the Trilinos_DIR environment variable is set to the installation directory of Trilinos:
+
+```sh
+export Trilinos_DIR=/path/to/trilinos/install
+```
+NetCDF Not Found
+If you encounter errors related to NetCDF, either install the libnetcdf-dev package or disable NetCDF support during the Trilinos installation.
+
+Insufficient Permissions
+If you encounter permission errors during installation, try running the scripts with sudo.
+
+
+
 :warning:
 :construction:
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+Make sure to follow best practices for shell scripting and document any changes thoroughly.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
