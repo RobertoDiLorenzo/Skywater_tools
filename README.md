@@ -81,22 +81,16 @@ Run the following script to install all the required packages for Xyce and Trili
 ```sh
 ./1_trilionos_xyce_packages_conf.sh
 ```
-### 2. Install Trilinos
+### 2. Install Trilinos and Xyce
 To install Trilinos, execute in a terminal:
 ```sh
-./2_trilinos_installation_github.sh
+./2_trilinos_xyce.sh
 ```
-This script will:
-
+The part of the script for Trilinos will:
 1) Clone the Trilinos repository from GitHub.
 2) Configure and compile Trilinos with the required options.
 3) Install Trilinos in the specified directory.
-### 3. Install Xyce
-Finally, install Xyce (version 7.8), the latest available release, by running:
-```sh
-./3_xyce_install.sh
-```
-This script will:
+The part of the script for Xyce will:
 1) Download the Xyce source code.
 2) Configure, compile, and install Xyce.
 
