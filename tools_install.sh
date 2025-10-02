@@ -41,6 +41,8 @@ sudo make install
 sudo make -j2
 sudo make install
 
+cd ..
+
 ######================================
 # NGspice
 git clone https://git.code.sf.net/p/ngspice/ngspice ngspice-ngspice
