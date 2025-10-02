@@ -7,7 +7,7 @@ test $? -eq 0 || exit 1 "you should have sudo privilege to run this script"
 
 echo installing the must-have pre-requisites
 git clone https://github.com/StefanSchippers/xschem.git xschem-src
-cd /xschem-src
+cd xschem-src
 
 ./configure
 sudo make
