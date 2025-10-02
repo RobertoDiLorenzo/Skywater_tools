@@ -7,7 +7,7 @@ test $? -eq 0 || exit 1 "you should have sudo privilege to run this script"
 
 echo installing the must-have pre-requisites
 git clone https://github.com/StefanSchippers/xschem.git xschem-src
-cd /xschem-src
+cd xschem-src
 
 ./configure
 sudo make
@@ -30,7 +30,7 @@ cd ..
 #OPEN PDK
 #download Open PDK
 git clone https://github.com/RTimothyEdwards/open_pdks
-cd open_pdk
+cd open_pdks
 
 ./configure
 sudo make
@@ -40,6 +40,8 @@ sudo make install
 ./configure --enable-sky130-pdk
 sudo make -j2
 sudo make install
+
+cd ..
 
 ######================================
 # NGspice
