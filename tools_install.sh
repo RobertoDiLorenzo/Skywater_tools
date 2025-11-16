@@ -30,7 +30,7 @@ cd ..
 #OPEN PDK
 #download Open PDK
 git clone https://github.com/RTimothyEdwards/open_pdks
-cd open_pdk
+cd open_pdks
 
 ./configure
 sudo make
